@@ -1,0 +1,156 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+#banner {
+    background-image: url('banner.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 150px 0;
+    color: #fff;
+}
+
+#banner h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+#banner p {
+    font-size: 1.2em;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+#productos {
+    padding: 50px 0;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.product {
+    margin-bottom: 30px;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+    transition: transform 0.3s ease;
+}
+
+.product img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.product h3 {
+    margin-top: 10px;
+    font-size: 1.8em;
+}
+
+.product p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+.product button {
+    background-color: #333;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.product button:hover {
+    background-color: #555;
+}
+
+#como-comprar {
+    padding: 50px 0;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+#como-comprar ol {
+    padding-left: 20px;
+}
+
+#contacto {
+    padding: 50px 0;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+form input, form textarea {
+    width: calc(100% - 20px);
+    padding: 10px
